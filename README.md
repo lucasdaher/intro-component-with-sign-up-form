@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repository](https://github.com/lucasdaher/blog-preview-card)
-- Live Site URL: [Netlify Live Site](https://lucasdaher-blogpreviewcard.netlify.app/)
+- Solution URL: [Github Repository](https://github.com/lucasdaher/intro-component-with-sign-up-form)
+- Live Site URL: [Netlify Live Site](https://lucasdaher-signupform.netlify.app/)
 
 ## My process
 
