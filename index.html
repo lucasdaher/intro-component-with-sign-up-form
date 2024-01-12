@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro Component With Sign Up Form</title>
+
+    <link rel="icon" href="assets/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+    
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+<body>
+    <div class="text-container">
+        <h1>Learn to code by watching others</h1>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
+    </div>
+
+    <div class="container">
+        <div class="offer-container">
+            <p><span id="try-free">Try it free 7 days</span> then $20/mo. thereafter</p>
+        </div>
+
+        <div class="form-container">
+            <form>
+                <div class="form">
+                    <div class="form-input">
+                        <input type="text" name="firstname" id="form-firstname" placeholder="First Name">
+                        <img src="assets/icon-error.svg" alt="Icon Error" id="firstname-error">
+                    </div>
+                    
+                    <span class="form-error" id="form-firstname-error"></span>
+                </div>
+                <div class="form">
+                    <div class="form-input">
+                        <input type="text" name="lastname" id="form-lastname" placeholder="Last Name">
+                        <img src="assets/icon-error.svg" alt="Icon Error" id="lastname-error">
+                    </div>
+                    
+                    <span class="form-error" id="form-lastname-error"></span>
+                </div>
+                <div class="form">
+                    <div class="form-input">
+                        <input type="text" name="email" id="form-email" placeholder="Email Address">
+                        <img src="assets/icon-error.svg" alt="Icon Error" id="email-error">
+                    </div>
+                    
+                    <span class="form-error" id="form-email-error"></span>
+                </div>
+                <div class="form">
+                    <div class="form-input">
+                        <input type="text" name="password" id="form-password" placeholder="Password">
+                        <img src="assets/icon-error.svg" alt="Icon Error" id="password-error">
+                    </div>
+                    
+                    <span class="form-error" id="form-password-error"></span>
+                </div>
+                <div class="form">
+                    <button type="button" id="btn-claim">Claim Your Free Trial</button>
+                </div>
+                <p id="terms-text">By clicking the button, you are agreeing to our <span id="terms">Terms and Services</span></p>
+            </form>
+        </div>
+
+        <div class="attribution-container">
+            <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://github.com/lucasdaher">Lucas Daher</a>.
+            </p>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
